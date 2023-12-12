@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 50px 100px;
+    position: relative;
+}
+
+.kanto-johto-map {
+    background-size: cover;
+    background: url(img/kanto-johto-map.png);
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2 {
+    color: rgb(43, 6, 99);
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.contact .content p {
+    color: rgb(43, 6, 99);
+    font-weight: 300;
+}
+
+.content {
+
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.container .contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container .contact-info .box {
+    display: flex;
+    padding: 20px 0;
+    position: relative;
+}
+
+.container .contact-info .box .icon {
+    align-items: center;
+    background: #d42424;
+    border-radius: 50%;
+    display: flex;
+    font-size: 22px;
+    height: 60%;
+    justify-content: center;
+    min-width: 60%;
+}
+
+.container .contact-info .box .text {
+    color: #d42424;
+    display: flex;
+    font-size: 100%;
+    font-weight: 300;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.container .contact-info .box .text h3 {
+    color: #6da337;
+    font-weight: 500;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 40px;
+    width: 40%;
+}
+
+.contact-form {
+    background: #e4cf96;
+    font-weight: 500;
+    font-size: 30%;
+}
+
+.contact-form .input-box {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+}
+
+.contact-form .input-box input,
+.contact-form .input-box textarea {
+    border: none;
+    border-bottom: 2px solid #333;
+    font-size: 16px;
+    margin: 10px 0;
+    outline: none;
+    padding: 5px 0;
+    resize: none;
+    width: 100%;
+}
+
+.box {
+
+}
+
+.class {
+
+}
+
+.icon {
+
+}
+
+.text {
+
+}
+
+.input-box {
+
+}
